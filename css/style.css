@@ -1,0 +1,493 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15.03.2016, 13:59:32
+    Author     : Andre Gärtner
+*/
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../css/MaterialIcons-Regular.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body
+{
+    background:#eee;
+    font-family:verdana;
+    margin:0; 
+    padding:0;
+    width:100%;
+    height:100%;
+    background: url(../img/11.png) no-repeat center center fixed;
+    
+}
+
+header form{
+    display: block; 
+    position: static; 
+    width:auto; 
+    height: auto;
+   
+}
+
+header{ 
+    width:90%;
+    margin-left: 5%;
+    position: fixed;
+    top:0;
+    z-index:999;
+    background:#ccc;
+    overflow: hidden;
+    background: rgba(200, 200, 200, .8);
+    border: solid 1px  navy;
+    border-top: none;
+}
+
+header h1{
+    margin:0;
+    padding:0;
+    float:left;
+    color:#fff;
+    margin-left:10px;
+}
+
+#logo{
+    width: 180px;
+    margin-left: 20px;
+}
+header form{
+    height: auto;
+    min-height: auto;
+    width:auto;
+    padding:0 !important;
+    top:auto;
+    left:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background: none;
+    border:none;
+    width:450px;
+    margin-top: 3px;
+}
+header form input{
+    display:inline;
+    width:150px;
+    float:left;
+    margin-top:5px;
+    margin-bottom: 3px;
+    margin-left:4px;
+    padding:3px;
+}
+
+header form input[type="submit"]{
+    float:left;
+    height:25px;
+    width:100px;
+    border:none;
+    padding:0;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    display:inline-block;
+    border-radius: 3px;
+}
+
+#logout, #adminlink{
+    float:right;
+    background: #fff;
+    margin-right:20px;
+    margin-top:14px;
+    padding:3px 5px 3px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#logout:hover{
+    background: #ccc;
+}
+
+#wrapper{
+    width:90%;
+    box-sizing: border-box;
+    margin-left:50%;
+    left:-45%;
+    padding:40px;
+    background:#fff;
+    overflow: hidden;
+    min-height:100%;    
+    position:relative;
+    margin-top:0px;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    background: rgba(255, 255, 255, .9);
+}
+
+#wrapper h1{
+    color:#333;
+    margin-top: 0;
+}
+
+#wrapper a{ float:right;}
+
+#wrapper p{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+     -webkit-column-rule: 1px solid #999; /* Chrome, Safari, Opera */
+    -moz-column-rule: 1px solid #999; /* Firefox */
+    column-rule:1px solid #999;
+    column-rule: 1px outset #eee;
+    -moz-column-rule:  1px outset #eee;
+    -webkit-column-rule:  1px outset #eee;
+    column-gap: 60px;
+   -moz-column-gap:  100px;
+   -webkit-column-gap:  60px;
+    line-height: 1.6em;
+    letter-spacing: .012em;
+    text-align: justify;
+}
+
+ul{
+    
+    overflow: hidden;
+    margin:0;
+   
+    width:90%;
+    margin-left:5%;
+    box-sizing: border-box;
+    padding:0;
+    margin-top: 63px;
+    position: relative;
+    z-index: 9;
+    margin-bottom: -1px;
+}
+
+ul li{
+    list-style: none;
+    float:left;
+    margin-left: 10px;
+    
+}
+
+
+
+ul li:first-child{
+    margin-left:0;
+    border-left:none;
+}
+
+
+
+ul li a{
+    border-radius: 5px 5px 0px 0px;
+    border-left: solid 1px #ccc ;
+    border-top: solid 1px #ccc ;
+    border-right: solid 1px #ccc;
+    text-decoration: none;
+    background: #ccc;
+    color:#fff;
+    width:100%;
+    padding:5px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgba(200, 200, 200, .9);
+}
+
+ul li a:hover, .active{
+    background:#fff;
+    background: rgba(255, 255, 255, .9);
+    color: #ccc;
+}
+
+
+form{
+    width:540px;
+    background:#fff;
+    padding:20px;
+    border-radius:5px;
+    min-height:200px;
+    top: 50%;
+    margin-top:-205px;
+    left:50%;
+    margin-left: -370px;
+    position:absolute;
+    overflow:hidden;
+    border: solid 1px #ccc;
+}
+
+label{
+    width:300px;
+    display: inline-block;
+}
+
+input{
+    padding:5px;
+}
+
+form select{
+    display:block;
+    padding:5px;
+}
+
+form input, form select{
+    display: inline-block;
+    margin-top:10px;
+    width:200px;      
+}
+
+
+
+form input[type="submit"]
+{
+    display:block;
+}
+
+#kontaktformular, #registerformular 
+{
+    width:540px;
+    background:#fff;
+    padding:20px;
+    border-radius:5px;
+    min-height:200px;
+    top:0%;
+    margin-top:0px;
+    left:0%;
+    margin-left: 0px;
+    position:static;
+    overflow:hidden;
+    border: solid 1px #ccc;
+    margin:0 auto;
+}
+
+#kontaktformular label, #registerformular label
+{
+    width:200px;
+    float: left;
+    margin-top:15px;
+}
+
+#kontaktformular textarea
+{
+    width:100%;
+}
+
+#adminlog
+{
+    width:340px;
+    background:#fff;
+    padding:20px;
+    border-radius:5px;
+    min-height:200px;
+    top: 50%;
+    margin-top:-205px;
+    left:50%;
+    margin-left: -170px;
+    position:absolute;
+    overflow:hidden;
+    border: solid 1px #ccc;
+}
+
+#adminlog label{
+    margin-top: 10px; margin-bottom: 0px;
+}
+
+#adminlog input{
+    width:100%;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#adminlog input[type=submit]{
+    border: none;
+    border-radius: 5px;
+    height:30px;
+    border:  solid 1px #ccc;
+    background: #eee;
+    outline: none;
+    margin-top: 10px;
+}
+#adminlog input[type=submit]:hover{
+    background: #ddd;
+    
+}
+
+.error{
+        color:red;
+}
+
+table{
+    border-collapse: collapse;
+    margin:0 auto;
+    width:100%;
+}
+
+ th, td{
+     border:solid 1px #000;
+ }
+
+th{
+    background:#333; 
+    color: #fff; padding: 10px;
+}
+
+td{
+    padding: 10px
+}
+
+tr:nth-child(even) {
+    background-color:#eee;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Dozenten.php */
+.des{
+    text-align: justify;
+}
+.cat{
+    text-align: center;
+}
+
+/* Kontakt.php */
+textarea{ 
+    margin-top: 10px;
+}
+
+.maxclasslimit{ 
+  /*  background:red !important; */
+}
+
+footer{
+    width:90%;
+    margin-left: 5%;
+    background:#ccc;
+    color:#fff;
+    padding:10px;
+    text-align: right;
+    box-sizing: border-box;
+    background: rgba(200, 200, 200, .8);
+}
+
+/* Formcheck */
+.error{
+    border:  solid 1px #ff0000 !important;
+}
+
+.correct{
+    border:  solid 1px #00ff00;
+}
+
+span{ float: right; font-size: .7em; }
+/* error message*/
+.errmsg{
+    float: left;
+    color:red;
+    width:100%;
+}
+
+header form{ float:right;}
+header form span{
+    float: left; 
+    margin-left: 5px; 
+    margin-bottom: 4px;
+}
+
+#reg{
+    font-size: 1em;
+    padding:3px;
+    margin-top: -4px;
+    border-radius: 5px;
+}
+
+#aside-nav{
+    width:30%;
+    box-sizing: border-box;
+    position:static;
+    background:none;
+    border:none;
+    float:right;
+    padding: 20px;
+    background: rgba(245, 245, 245, .7);
+    margin-top: 0;
+    border:  solid 1px #ccc;
+    border-radius: 5px;
+}
+
+#aside-nav ul{
+    box-sizing: border-box;
+}
+
+#aside-nav li{
+    width:100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#aside-nav li a{
+    width:100%;
+    text-align:left;
+    color:#999;
+    border-bottom: solid 1px #ccc;
+    background: none;
+    border: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#aside-nav .active{
+    background: none;
+    font-weight: 800;
+}
+
+#seminare-table{
+    width:65%;
+    float:left;
+    margin: 0;
+    font-size: .7em;
+}
+
+
+.done{ color: green;}
+
+
+.maxclasslimit{ color: #ccc;}
+.angemeldet{color:#fff; color: green !important; font-weight: 600; }
+
+
+.messageerr{
+    display: block;
+    width: 59%;
+   float:left;
+}
+
+.messageerr p{
+    -webkit-column-count: 1 !important; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
