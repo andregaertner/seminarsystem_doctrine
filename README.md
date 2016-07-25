@@ -35,7 +35,7 @@ Rufen Sie die Seite http://localhost:8888/seminarsystem-mvc/reset.php auf.
 Laden Sie alle Abhängigkeiten mit Composer nach!
 
 ```
-php composer.phar install
+$ php composer.phar install
 ```
 
 Webanwendung
