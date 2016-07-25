@@ -6,7 +6,7 @@ Um das Projekt auf Ihrem System zu installieren, müssen Sie folgende Schritte t
 
 <strong>Schritt 1</strong>
 
-Laden Sie das Repository in Ihr locales Verzeichnis
+Laden Sie das Repository in Ihr locales Verzeichnis.
 
 <strong>Schritt 2</strong>
 
