@@ -38,7 +38,7 @@ Laden Sie alle Abhängigkeiten mit Composer nach!
 $ php composer.phar install
 ```
 
-Webanwendung
+# Applikation
 
 Danach sollte die MySQL Datenbank mit Inhalten erstellt sein und die Applikation lauffähig.
 
