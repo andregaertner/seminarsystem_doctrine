@@ -44,7 +44,7 @@ Danach sollte die MySQL Datenbank mit Inhalten erstellt sein und die Applikation
 
 Danach können Sie unter:
 
-http://localhost:8888/seminarsystem-mvc
-http://localhost:8888/seminarsystem-mvc/admin
+<strong>http://localhost:8888/ihr_verzeichnis</strong>
+<strong>http://localhost:8888/ihr_verzeichnis/admin</strong>
 
 das Frontend und Backend der Applikation abrufen.
