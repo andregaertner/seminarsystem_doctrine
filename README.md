@@ -1,5 +1,6 @@
-# seminarsystem_doctrine
-Doctrine Example
+# Seminarsystem mit Doctrine
+
+#Projekt installieren
 
 Um das Projekt auf Ihren System zu installieren, müssen Sie folgende Schritte tätigen.  
 
