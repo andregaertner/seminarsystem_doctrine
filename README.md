@@ -14,17 +14,13 @@ Erstellen Sie eine Datenbank in MySQL.
 
 <strong>Schritt 3</strong>
 
-Ändern Sie in der Datei config.inc.php im Verzeichnis:
+Ändern Sie die Logindaten für Ihre MySQL-Verbindung und Ihrer Datenbank in der Datei config.inc.php im Verzeichnis:
 
 ```
 seminarsystem_doctrine/
 ├── inc/
 │   ├── config.inc.php
 ```
-
-die Logindaten für Ihre MySQL-Verbindung und Ihrer Datenbank.
-
-
 
 <strong>Schritt 4</strong>
 
