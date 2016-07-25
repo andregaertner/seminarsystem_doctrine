@@ -3,29 +3,33 @@ Doctrine Example
 
 Um das Projekt auf Ihren System zu installieren, müssen Sie folgende Schritte tätigen.  
 
-Schritt 1
+<strong>Schritt 1</strong>
 
 Laden Sie das Repository in Ihr locales Verzeichnis
 
-Schritt 2
+<strong>Schritt 2</strong>
 
 Erstellen Sie eine Datenbank in MySQL.
 
-Schritt 3
+<strong>Schritt 3</strong>
 
 Ändern Sie unter dem Verzeichnis inc/config.inc.php die Logindaten für Ihre MySQL-Verbindung.
 
-Schritt 4
+<strong>Schritt 4</strong>
 
 Rufen Sie die Seite http://localhost:8888/seminarsystem-mvc/setup.php auf.
 
-Schritt 3
+<strong>Schritt 5</strong>
 
 Rufen Sie die Seite http://localhost:8888/seminarsystem-mvc/reset.php auf.
 
+<strong>Schritt 6</strong>
+
+Laden Sie alle Abhängigkeiten mit Composer nach!
+
 Webanwendung
 
-Danach sollte die MySQL Datenbank mit Inhalten erstellt sein.
+Danach sollte die MySQL Datenbank mit Inhalten erstellt sein und die Applikation lauffähig.
 
 Danach können Sie unter:
 
