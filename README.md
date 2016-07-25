@@ -3,9 +3,9 @@ Doctrine Example
 
 Um das Projekt auf Ihren System zu installieren, müssen Sie folgende Schritte tätigen.  
 
-Schritt 1 
+Schritt 1
 
-Laden Sie das Repository in Ihr locales Verzeichnis.
+Laden Sie das Repository in Ihr locales Verzeichnis und ändern Sie unter dem Verzeichnis inc/config.inc.php die Logindaten für Ihre MySQL-Verbindung.
 
 
 Schritt 2
@@ -16,4 +16,4 @@ Schritt 3
 
 Rufen Sie die Seite http://localhost:8888/seminarsystem-mvc/reset.php auf.
 
-Danach sollte die MySQL Datenbank erstellt sein. 
+Danach sollte die MySQL Datenbank erstellt sein.
