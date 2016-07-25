@@ -22,7 +22,7 @@ seminarsystem_doctrine/
 │   ├── config.inc.php
 ```
 
-die Logindaten für Ihre MySQL-Verbindung.
+die Logindaten für Ihre MySQL-Verbindung und Ihrer Datenbank.
 
 
 
