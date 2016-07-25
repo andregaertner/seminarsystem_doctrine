@@ -2,7 +2,7 @@
 
 #Projekt installieren
 
-Um das Projekt auf Ihren System zu installieren, müssen Sie folgende Schritte tätigen.  
+Um das Projekt auf Ihrem System zu installieren, müssen Sie folgende Schritte tätigen.  
 
 <strong>Schritt 1</strong>
 
