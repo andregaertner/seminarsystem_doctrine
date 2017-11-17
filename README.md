@@ -1,5 +1,7 @@
 # Seminarsystem mit Doctrine
 
+![alt text](https://andregaertner.com/wp-content/uploads/seminarsystem_doctrine.png)
+
 #Projekt installieren
 
 Um das Projekt auf Ihrem System zu installieren, müssen Sie folgende Schritte tätigen.  
