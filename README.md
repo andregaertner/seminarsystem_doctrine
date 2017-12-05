@@ -1,5 +1,5 @@
 # Seminarsystem mit Doctrine
-
+<!--
 <div align="center">
   <br />
   <p>
@@ -18,6 +18,7 @@
     <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p>
 </div>
+-->
 
 ![alt text](https://andregaertner.com/wp-content/uploads/seminarsystem_doctrine.png)
 
